@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  row-gap: 1rem;
+  box-shadow: 1px 2px 8px rgb(177, 177, 177);
+  padding: 2rem;
+  width: 30vw;
+  margin: 0 auto;
+}
+.head {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  text-transform: capitalize;
+}
+.preview {
+  height: 200px;
+  border: 0.5px solid lightgrey;
+}
+.rgbValue {
+  border: 0.5px solid lightgrey;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+#changeBtn {
+  padding: 8px 12px;
+  font-size: 20px;
+  background-color: grey;
+  border: none;
+  color: white;
+  cursor: pointer;
+  scale: 0.8;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 3.275);
+}
+#changeBtn:hover {
+  scale: 1;
+  background-color: rgb(69, 77, 195);
+}
